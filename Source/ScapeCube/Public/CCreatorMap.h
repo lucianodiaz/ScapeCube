@@ -26,19 +26,27 @@ protected:
 
 	virtual void OnConstruction(const FTransform& Transform) override;
 
-	void CreateLevelBounds(float &X,float&Y);
+	void CreateLevelBounds(const int& X, const int& Y);
 
-
-	// UPROPERTY(VisibleAnywhere,Category="Components")
-	// UStaticMeshComponent* MeshComponent;
+	void SetXY();
+	 UPROPERTY(VisibleAnywhere,Category="Components")
+	 UInstancedStaticMeshComponent* InstancedStaticMeshComponent;
 	//
 public:	
 	// Called every frame
 	// virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(VisibleAnywhere,Category="Creation")
-	float XCube;
+	UPROPERTY(EditAnywhere,Category="Creation")
+	UStaticMesh* Cubes;
 
-	UPROPERTY(VisibleAnywhere,Category="Creation")
-	float YCube;
+	UPROPERTY(EditAnywhere,Category="Creation",meta = (ClampMin="2",ClampMax="100",UIMin="1",UIMax="100",editCondition="!bisBlockXY"))
+	int XCube;
+
+	UPROPERTY(EditAnywhere,Category="Creation",meta = (ClampMin="2",ClampMax="100",UIMin="1",UIMax="100", editCondition="!bisBlockXY"))
+	int YCube;
+
+	UPROPERTY(EditAnywhere,Category="Creation",meta = (ClampMin="2",ClampMax="100",UIMin="1",UIMax="100",editCondition="bIsBlockXY"))
+	int XYCube;
+	UPROPERTY(EditAnywhere,Category="Creation")
+	bool bIsBlockXY;
 };

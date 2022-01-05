@@ -14,6 +14,8 @@ ACCube::ACCube()
 	MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
 
 	RootComponent = MeshComponent;
+
+	
 }
 
 // Called when the game starts or when spawned
@@ -39,6 +41,7 @@ void ACCube::Up(float AxisValue)
 		                                     ECollisionChannel::ECC_Visibility);
 
 		DrawDebugLine(GetWorld(), Start, End,FColor::Red,false,3);
+		
 	}
 	else
 	{
@@ -47,6 +50,10 @@ void ACCube::Up(float AxisValue)
 											ECollisionChannel::ECC_Visibility);
 
 		DrawDebugLine(GetWorld(), Start, End,FColor::Red,false,3);
+	}
+	if(HitResult.bBlockingHit)
+	{
+		UE_LOG(LogTemp,Log,TEXT("Location : %s"),*HitResult.ImpactPoint.ToString());
 	}
 }
 
@@ -76,6 +83,11 @@ void ACCube::Right(float AxisValue)
 											ECollisionChannel::ECC_Visibility);
 
 		DrawDebugLine(GetWorld(), Start, End,FColor::Red,false,3);
+	}
+	
+	if(HitResult.bBlockingHit)
+	{
+		UE_LOG(LogTemp,Log,TEXT("Location : %s"),*HitResult.ImpactPoint.ToString());
 	}
 }
 
