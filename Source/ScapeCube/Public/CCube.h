@@ -20,10 +20,17 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	void Up(float AxisValue);
+	void Up();
 
-	void Right(float AxisValue);
+	void Right();
 	
+	void Down();
+	
+	void Left();
+	
+	void MoveCube(int Direction,bool UpWay);
+
+	bool IsArrival(const FVector& M);
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -31,10 +38,16 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY(VisibleAnywhere,Category="Component")
+	UPROPERTY(VisibleAnywhere,BlueprintReadWrite,Category="Component")
 	UStaticMeshComponent* MeshComponent;
-	
-	
+
+	UPROPERTY(EditAnywhere,Category="Gameplay")
+	float InterSpeed = 20;
 private:
 	
+	
+	
+	bool bIsMoving;
+
+	FVector MoveTo;
 };

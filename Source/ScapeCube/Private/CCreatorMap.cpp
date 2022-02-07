@@ -22,11 +22,21 @@ ACCreatorMap::ACCreatorMap()
 void ACCreatorMap::OnConstruction(const FTransform& Transform)
 {
 	Super::OnConstruction(Transform);
-	if(bIsBlockXY)
+	if(bIsLoadMap)
 	{
-		SetXY();
+		
+		InstancedStaticMeshComponent->ClearInstances();
+		//Load Data table
 	}
-	CreateLevelBounds(XCube,YCube);
+	else
+	{
+		if(bIsBlockXY)
+		{
+			SetXY();
+		}
+		CreateLevelBounds(XCube,YCube);
+	}
+
 }
 
 
