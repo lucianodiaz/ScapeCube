@@ -1,0 +1,18 @@
+D:/Documentos/Unreal Projects/ScapeCube/Plugins/Plugins/ElgEditorScripting/Intermediate/Build/Win64/UE4Editor/Inc/ElgEditorScripting/ElgEditorBP_LevelActor.gen.cpp
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/TextProperty.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting/Public/Blueprints/ElgEditorBP_LevelActor.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/BlueprintFunctionLibrary.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintFunctionLibrary.generated.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting\Public\Blueprints\ElgEditorBP_Enum.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_Enum.generated.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_LevelActor.generated.h
+D:/Documentos/Unreal Projects/ScapeCube/Plugins/Plugins/ElgEditorScripting/Intermediate/Build/Win64/UE4Editor/Inc/ElgEditorScripting/ElgEditorBP_PluginManager.gen.cpp
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting/Public/Blueprints/ElgEditorBP_PluginManager.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_PluginManager.generated.h
+D:/Documentos/Unreal Projects/ScapeCube/Plugins/Plugins/ElgEditorScripting/Intermediate/Build/Win64/UE4Editor/Inc/ElgEditorScripting/ElgEditorBP_UBlueprint.gen.cpp
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting/Public/Blueprints/ElgEditorBP_UBlueprint.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetData.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_UBlueprint.generated.h

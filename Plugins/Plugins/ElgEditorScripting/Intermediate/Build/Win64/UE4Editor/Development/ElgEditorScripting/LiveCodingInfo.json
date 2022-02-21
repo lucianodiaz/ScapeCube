@@ -1,0 +1,53 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ElgEditorScripting.cpp.obj": [
+			"ElgEditorBP_Assets.cpp.obj",
+			"ElgEditorBP_Class.cpp.obj",
+			"ElgEditorBP_Editor.cpp.obj",
+			"ElgEditorBP_EditorWidget.cpp.obj",
+			"ElgEditorBP_Enum.cpp.obj",
+			"ElgEditorBP_FModuleManager.cpp.obj",
+			"ElgEditorBP_LevelActor.cpp.obj",
+			"ElgEditorBP_PluginManager.cpp.obj",
+			"ElgEditorBP_UBlueprint.cpp.obj",
+			"ElgEditorContext_Assets.cpp.obj",
+			"ElgEditorContext_BP.cpp.obj",
+			"ElgEditorContext_Config.cpp.obj",
+			"ElgEditorContext_DirWatcher.cpp.obj",
+			"ElgEditorContext_Jason.cpp.obj",
+			"ElgEditorContext_LevelEditor.cpp.obj",
+			"ElgEditorContext_Manager.cpp.obj",
+			"ElgEditorContext_Notification.cpp.obj",
+			"ElgEditorScripting.cpp.obj"
+		],
+		"Module.ElgEditorScripting.gen.1_of_5.cpp.obj": [
+			"ElgEditorBP_Assets.gen.cpp.obj",
+			"ElgEditorBP_Class.gen.cpp.obj",
+			"ElgEditorBP_Editor.gen.cpp.obj",
+			"ElgEditorBP_EditorWidget.gen.cpp.obj",
+			"ElgEditorBP_Enum.gen.cpp.obj",
+			"ElgEditorBP_FModuleManager.gen.cpp.obj"
+		],
+		"Module.ElgEditorScripting.gen.2_of_5.cpp.obj": [
+			"ElgEditorBP_LevelActor.gen.cpp.obj",
+			"ElgEditorBP_PluginManager.gen.cpp.obj",
+			"ElgEditorBP_UBlueprint.gen.cpp.obj"
+		],
+		"Module.ElgEditorScripting.gen.3_of_5.cpp.obj": [
+			"ElgEditorContext_AssetBrowser.gen.cpp.obj",
+			"ElgEditorContext_BP.gen.cpp.obj",
+			"ElgEditorContext_Config.gen.cpp.obj",
+			"ElgEditorContext_DirWatcher.gen.cpp.obj",
+			"ElgEditorContext_Jason.gen.cpp.obj"
+		],
+		"Module.ElgEditorScripting.gen.4_of_5.cpp.obj": [
+			"ElgEditorContext_LevelEditor.gen.cpp.obj",
+			"ElgEditorContext_Manager.gen.cpp.obj",
+			"ElgEditorContext_Notification.gen.cpp.obj"
+		],
+		"Module.ElgEditorScripting.gen.5_of_5.cpp.obj": [
+			"ElgEditorScripting.init.gen.cpp.obj"
+		]
+	}
+}

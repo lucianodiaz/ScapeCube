@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ElgEditorScripting.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Development\ElgEditorScripting\PCH.ElgEditorScripting.h.obj"
+"D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Development\ElgEditorScripting\Module.ElgEditorScripting.cpp.obj"
+"D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Development\ElgEditorScripting\Module.ElgEditorScripting.gen.1_of_5.cpp.obj"
+"D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Development\ElgEditorScripting\Module.ElgEditorScripting.gen.2_of_5.cpp.obj"
+"D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Development\ElgEditorScripting\Module.ElgEditorScripting.gen.3_of_5.cpp.obj"
+"D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Development\ElgEditorScripting\Module.ElgEditorScripting.gen.4_of_5.cpp.obj"
+"D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Development\ElgEditorScripting\Module.ElgEditorScripting.gen.5_of_5.cpp.obj"
+"D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Development\ElgEditorScripting\Default.rc2.res"
+/OUT:"D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Development\ElgEditorScripting\UE4Editor-ElgEditorScripting.lib"

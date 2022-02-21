@@ -1,0 +1,85 @@
+D:/Documentos/Unreal Projects/ScapeCube/Plugins/Plugins/ElgEditorScripting/Intermediate/Build/Win64/UE4Editor/Inc/ElgEditorScripting/ElgEditorBP_Assets.gen.cpp
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/TextProperty.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting/Public/Blueprints/ElgEditorBP_Assets.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/BlueprintFunctionLibrary.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintFunctionLibrary.generated.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting\Public\Blueprints\ElgEditorBP_Enum.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_Enum.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetData.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_Assets.generated.h
+D:/Documentos/Unreal Projects/ScapeCube/Plugins/Plugins/ElgEditorScripting/Intermediate/Build/Win64/UE4Editor/Inc/ElgEditorScripting/ElgEditorBP_Class.gen.cpp
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting/Public/Blueprints/ElgEditorBP_Class.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_Class.generated.h
+D:/Documentos/Unreal Projects/ScapeCube/Plugins/Plugins/ElgEditorScripting/Intermediate/Build/Win64/UE4Editor/Inc/ElgEditorScripting/ElgEditorBP_Editor.gen.cpp
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting/Public/Blueprints/ElgEditorBP_Editor.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_Editor.generated.h
+D:/Documentos/Unreal Projects/ScapeCube/Plugins/Plugins/ElgEditorScripting/Intermediate/Build/Win64/UE4Editor/Inc/ElgEditorScripting/ElgEditorBP_EditorWidget.gen.cpp
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting/Public/Blueprints/ElgEditorBP_EditorWidget.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/SlateBrush.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/SlateColor.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Styling/WidgetStyle.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateColor.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/Margin.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Types/SlateEnums.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/EnumRange.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateEnums.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Margin.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Textures/SlateShaderResource.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\SlateGlobals.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Debugging/SlateDebugging.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\FastUpdate/WidgetUpdateFlags.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/Reply.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\InputCore\Classes\InputCoreTypes.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Attribute.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore\InputCoreTypes.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/ReplyBase.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/Events.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericApplication.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/Accessibility/GenericAccessibleInterfaces.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Variant.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/NetworkGuid.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryWriter.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryArchive.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryReader.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Async/TaskGraphInterfaces.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/IConsoleManager.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Features/IModularFeature.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/LockFreeFixedSizeAllocator.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/MemStack.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericApplicationMessageHandler.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericWindowDefinition.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/GenericWindow.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/Geometry.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TransformCalculus2D.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TransformCalculus.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/SlateRect.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/SlateRotatedRect.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering/SlateLayoutTransform.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Rendering/SlateRenderTransform.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Layout/PaintGeometry.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Geometry.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Events.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/DragAndDrop.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/CursorReply.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Input/DragAndDrop.inl
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CsvProfiler.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Queue.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CsvProfilerTrace.h
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE\atomic
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE\xatomic.h
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE\intrin0.h
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE\xthreads.h
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE\xtimec.h
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE\ctime
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\time.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Widgets/InvalidateWidgetReason.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateDebugging.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Trace/SlateTrace.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateBrush.generated.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_EditorWidget.generated.h
+D:/Documentos/Unreal Projects/ScapeCube/Plugins/Plugins/ElgEditorScripting/Intermediate/Build/Win64/UE4Editor/Inc/ElgEditorScripting/ElgEditorBP_Enum.gen.cpp
+D:/Documentos/Unreal Projects/ScapeCube/Plugins/Plugins/ElgEditorScripting/Intermediate/Build/Win64/UE4Editor/Inc/ElgEditorScripting/ElgEditorBP_FModuleManager.gen.cpp
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Source\ElgEditorScripting/Public/Blueprints/ElgEditorBP_FModuleManager.h
+D:\Documentos\Unreal Projects\ScapeCube\Plugins\Plugins\ElgEditorScripting\Intermediate\Build\Win64\UE4Editor\Inc\ElgEditorScripting\ElgEditorBP_FModuleManager.generated.h

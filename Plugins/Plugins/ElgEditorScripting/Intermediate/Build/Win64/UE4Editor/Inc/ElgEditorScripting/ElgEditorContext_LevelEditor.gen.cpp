@@ -1,0 +1,2966 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "ElgEditorScripting/Public/EditorContexts/ElgEditorContext_LevelEditor.h"
+#ifdef _MSC_VER
+#pragma warning (push)
+#pragma warning (disable : 4883)
+#endif
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeElgEditorContext_LevelEditor() {}
+// Cross Module References
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_ElgEditorScripting();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature();
+	SLATECORE_API UScriptStruct* Z_Construct_UScriptStruct_FKeyEvent();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature();
+	ENGINE_API UClass* Z_Construct_UClass_UWorld_NoRegister();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature();
+	ELGEDITORSCRIPTING_API UClass* Z_Construct_UClass_UElgEditorContext_LevelEditor_NoRegister();
+	ELGEDITORSCRIPTING_API UClass* Z_Construct_UClass_UElgEditorContext_LevelEditor();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FBox();
+	ELGEDITORSCRIPTING_API UEnum* Z_Construct_UEnum_ElgEditorScripting_EBPEditorOutputValidBranch();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
+	ELGEDITORSCRIPTING_API UEnum* Z_Construct_UEnum_ElgEditorScripting_EBPEditorOutputBranch();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+// End Cross Module References
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnObjectPropertyChangedSignature_Parms
+		{
+			AActor* LevelActor;
+			FName PropertyName;
+			UObject* PropertyObject;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LevelActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PropertyName_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_PropertyName;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PropertyObject;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::NewProp_LevelActor = { "LevelActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnObjectPropertyChangedSignature_Parms, LevelActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::NewProp_PropertyName_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::NewProp_PropertyName = { "PropertyName", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnObjectPropertyChangedSignature_Parms, PropertyName), METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::NewProp_PropertyName_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::NewProp_PropertyName_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::NewProp_PropertyObject = { "PropertyObject", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnObjectPropertyChangedSignature_Parms, PropertyObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::NewProp_LevelActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::NewProp_PropertyName,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::NewProp_PropertyObject,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnObjectPropertyChangedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnInputKeySignature_Parms
+		{
+			FKeyEvent KeyEvent;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_KeyEvent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_KeyEvent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::NewProp_KeyEvent_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::NewProp_KeyEvent = { "KeyEvent", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnInputKeySignature_Parms, KeyEvent), Z_Construct_UScriptStruct_FKeyEvent, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::NewProp_KeyEvent_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::NewProp_KeyEvent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::NewProp_KeyEvent,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnInputKeySignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnInputKeySignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnMouseClickSignature_Parms
+		{
+			bool ShiftIsPressed;
+			bool CtrlIsPressed;
+			bool AltIsPressed;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShiftIsPressed_MetaData[];
+#endif
+		static void NewProp_ShiftIsPressed_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ShiftIsPressed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CtrlIsPressed_MetaData[];
+#endif
+		static void NewProp_CtrlIsPressed_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_CtrlIsPressed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AltIsPressed_MetaData[];
+#endif
+		static void NewProp_AltIsPressed_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_AltIsPressed;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_ShiftIsPressed_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	void Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_ShiftIsPressed_SetBit(void* Obj)
+	{
+		((_Script_ElgEditorScripting_eventElgEditorEventsOnMouseClickSignature_Parms*)Obj)->ShiftIsPressed = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_ShiftIsPressed = { "ShiftIsPressed", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnMouseClickSignature_Parms), &Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_ShiftIsPressed_SetBit, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_ShiftIsPressed_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_ShiftIsPressed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_CtrlIsPressed_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	void Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_CtrlIsPressed_SetBit(void* Obj)
+	{
+		((_Script_ElgEditorScripting_eventElgEditorEventsOnMouseClickSignature_Parms*)Obj)->CtrlIsPressed = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_CtrlIsPressed = { "CtrlIsPressed", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnMouseClickSignature_Parms), &Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_CtrlIsPressed_SetBit, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_CtrlIsPressed_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_CtrlIsPressed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_AltIsPressed_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	void Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_AltIsPressed_SetBit(void* Obj)
+	{
+		((_Script_ElgEditorScripting_eventElgEditorEventsOnMouseClickSignature_Parms*)Obj)->AltIsPressed = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_AltIsPressed = { "AltIsPressed", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnMouseClickSignature_Parms), &Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_AltIsPressed_SetBit, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_AltIsPressed_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_AltIsPressed_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_ShiftIsPressed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_CtrlIsPressed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::NewProp_AltIsPressed,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnMouseClickSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnMouseClickSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnEditorModeSignature_Parms
+		{
+			FText ModeName;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ModeName_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_ModeName;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::NewProp_ModeName_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::NewProp_ModeName = { "ModeName", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnEditorModeSignature_Parms, ModeName), METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::NewProp_ModeName_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::NewProp_ModeName_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::NewProp_ModeName,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnEditorModeSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnEditorModeSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnFocusViewportOnActorsSignature_Parms
+		{
+			TArray<AActor*> Actors;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actors_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Actors_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Actors;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::NewProp_Actors_Inner = { "Actors", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::NewProp_Actors_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::NewProp_Actors = { "Actors", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnFocusViewportOnActorsSignature_Parms, Actors), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::NewProp_Actors_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::NewProp_Actors_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::NewProp_Actors_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::NewProp_Actors,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnFocusViewportOnActorsSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsMapChangeSignature_Parms
+		{
+			int32 MapChangeFlags;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MapChangeFlags_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_MapChangeFlags;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::NewProp_MapChangeFlags_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::NewProp_MapChangeFlags = { "MapChangeFlags", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsMapChangeSignature_Parms, MapChangeFlags), METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::NewProp_MapChangeFlags_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::NewProp_MapChangeFlags_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::NewProp_MapChangeFlags,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsMapChangeSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsMapChangeSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnMapOpenedSignature_Parms
+		{
+			FString Filename;
+			bool bAsTemplate;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Filename_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_Filename;
+		static void NewProp_bAsTemplate_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bAsTemplate;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::NewProp_Filename_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::NewProp_Filename = { "Filename", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnMapOpenedSignature_Parms, Filename), METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::NewProp_Filename_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::NewProp_Filename_MetaData)) };
+	void Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::NewProp_bAsTemplate_SetBit(void* Obj)
+	{
+		((_Script_ElgEditorScripting_eventElgEditorEventsOnMapOpenedSignature_Parms*)Obj)->bAsTemplate = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::NewProp_bAsTemplate = { "bAsTemplate", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnMapOpenedSignature_Parms), &Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::NewProp_bAsTemplate_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::NewProp_Filename,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::NewProp_bAsTemplate,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnMapOpenedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnMapOpenedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsBeginStandaloneLocalPlaySignature_Parms
+		{
+			int32 ProcessID;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProcessID_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ProcessID;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::NewProp_ProcessID_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::NewProp_ProcessID = { "ProcessID", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsBeginStandaloneLocalPlaySignature_Parms, ProcessID), METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::NewProp_ProcessID_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::NewProp_ProcessID_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::NewProp_ProcessID,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsBeginStandaloneLocalPlaySignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsBeginPIESignature_Parms
+		{
+			bool bIsSimulating;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsSimulating_MetaData[];
+#endif
+		static void NewProp_bIsSimulating_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsSimulating;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::NewProp_bIsSimulating_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	void Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::NewProp_bIsSimulating_SetBit(void* Obj)
+	{
+		((_Script_ElgEditorScripting_eventElgEditorEventsBeginPIESignature_Parms*)Obj)->bIsSimulating = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::NewProp_bIsSimulating = { "bIsSimulating", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(_Script_ElgEditorScripting_eventElgEditorEventsBeginPIESignature_Parms), &Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::NewProp_bIsSimulating_SetBit, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::NewProp_bIsSimulating_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::NewProp_bIsSimulating_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::NewProp_bIsSimulating,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsBeginPIESignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsBeginPIESignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnEditorCameraMovedSignature_Parms
+		{
+			FVector Position;
+			FRotator Rotation;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Position_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Position;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Rotation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Rotation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Position_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Position = { "Position", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnEditorCameraMovedSignature_Parms, Position), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Position_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Position_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Rotation_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Rotation = { "Rotation", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnEditorCameraMovedSignature_Parms, Rotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Rotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Rotation_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Position,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::NewProp_Rotation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnEditorCameraMovedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnActorDeselectedSignature_Parms
+		{
+			UObject* Object;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Object;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::NewProp_Object = { "Object", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnActorDeselectedSignature_Parms, Object), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::NewProp_Object,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnActorDeselectedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnActorDeselectedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnActorSelectedSignature_Parms
+		{
+			UObject* Object;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Object;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::NewProp_Object = { "Object", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnActorSelectedSignature_Parms, Object), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::NewProp_Object,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnActorSelectedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnActorSelectedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnActorSelectionChangedSignature_Parms
+		{
+			TArray<UObject*> NewSelection;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NewSelection_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewSelection_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_NewSelection;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::NewProp_NewSelection_Inner = { "NewSelection", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::NewProp_NewSelection_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::NewProp_NewSelection = { "NewSelection", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnActorSelectionChangedSignature_Parms, NewSelection), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::NewProp_NewSelection_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::NewProp_NewSelection_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::NewProp_NewSelection_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::NewProp_NewSelection,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnActorSelectionChangedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnWorldDestroyedSignature_Parms
+		{
+			UWorld* World;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_World;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::NewProp_World = { "World", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnWorldDestroyedSignature_Parms, World), Z_Construct_UClass_UWorld_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::NewProp_World,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnWorldDestroyedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnWorldAddedSignature_Parms
+		{
+			UWorld* World;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_World;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::NewProp_World = { "World", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnWorldAddedSignature_Parms, World), Z_Construct_UClass_UWorld_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::NewProp_World,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnWorldAddedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnWorldAddedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnActorMovedSignature_Parms
+		{
+			AActor* Actor;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::NewProp_Actor = { "Actor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnActorMovedSignature_Parms, Actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::NewProp_Actor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnActorMovedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnActorMovedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDetachedSignature_Parms
+		{
+			AActor* Actor;
+			const AActor* Parent;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Parent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Parent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::NewProp_Actor = { "Actor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDetachedSignature_Parms, Actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::NewProp_Parent_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::NewProp_Parent = { "Parent", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDetachedSignature_Parms, Parent), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::NewProp_Parent_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::NewProp_Parent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::NewProp_Actor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::NewProp_Parent,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDetachedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAttachedSignature_Parms
+		{
+			AActor* Actor;
+			const AActor* Parent;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Parent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Parent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::NewProp_Actor = { "Actor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAttachedSignature_Parms, Actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::NewProp_Parent_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::NewProp_Parent = { "Parent", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAttachedSignature_Parms, Parent), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::NewProp_Parent_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::NewProp_Parent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::NewProp_Actor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::NewProp_Parent,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAttachedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDeletedNativeSignature_Parms
+		{
+			AActor* Actor;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::NewProp_Actor = { "Actor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDeletedNativeSignature_Parms, Actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::NewProp_Actor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDeletedNativeSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDeletedSignature_Parms
+		{
+			AActor* Actor;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::NewProp_Actor = { "Actor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDeletedSignature_Parms, Actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::NewProp_Actor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorDeletedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAddedNativeSignature_Parms
+		{
+			AActor* ActorAdded;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorAdded;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::NewProp_ActorAdded = { "ActorAdded", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAddedNativeSignature_Parms, ActorAdded), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::NewProp_ActorAdded,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAddedNativeSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics
+	{
+		struct _Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAddedSignature_Parms
+		{
+			AActor* ActorAdded;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorAdded;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::NewProp_ActorAdded = { "ActorAdded", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAddedSignature_Parms, ActorAdded), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::NewProp_ActorAdded,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_ElgEditorScripting, nullptr, "ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature", nullptr, nullptr, sizeof(_Script_ElgEditorScripting_eventElgEditorEventsOnLevelActorAddedSignature_Parms), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execGetViewportPerspectiveLocation)
+	{
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_CameraLocation);
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_CameraLookAt);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->GetViewportPerspectiveLocation(Z_Param_Out_CameraLocation,Z_Param_Out_CameraLookAt);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execSetViewportCameraLookAt)
+	{
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_LookAt);
+		P_GET_UBOOL(Z_Param_bRecalculateView);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetViewportCameraLookAt(Z_Param_Out_LookAt,Z_Param_bRecalculateView);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execFocusViewportCameraOnBox)
+	{
+		P_GET_STRUCT_REF(FBox,Z_Param_Out_BoundingBox);
+		P_GET_UBOOL(Z_Param_bInstant);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->FocusViewportCameraOnBox(Z_Param_Out_BoundingBox,Z_Param_bInstant);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execSetViewportCameraRotation)
+	{
+		P_GET_STRUCT_REF(FRotator,Z_Param_Out_NewRotation);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetViewportCameraRotation(Z_Param_Out_NewRotation);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execSetViewportCameraLocation)
+	{
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_NewLocation);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetViewportCameraLocation(Z_Param_Out_NewLocation);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execSetViewportCamera)
+	{
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_NewLocation);
+		P_GET_STRUCT_REF(FRotator,Z_Param_Out_NewRotation);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetViewportCamera(Z_Param_Out_NewLocation,Z_Param_Out_NewRotation);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execMoveViewportCameraAndLookAt)
+	{
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_NewLocation);
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_LookAtLocation);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->MoveViewportCameraAndLookAt(Z_Param_Out_NewLocation,Z_Param_Out_LookAtLocation);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execMoveViewportCameraToActor)
+	{
+		P_GET_OBJECT(AActor,Z_Param_Actor);
+		P_GET_UBOOL(Z_Param_bActiveViewportOnly);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->MoveViewportCameraToActor(Z_Param_Actor,Z_Param_bActiveViewportOnly);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execRestoreViewportRealtime)
+	{
+		P_GET_PROPERTY(FTextProperty,Z_Param_SystemDisplayName);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->RestoreViewportRealtime(Z_Param_SystemDisplayName);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execSetViewportRealtimeOverride)
+	{
+		P_GET_UBOOL(Z_Param_bInRealtime);
+		P_GET_PROPERTY(FTextProperty,Z_Param_SystemDisplayName);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetViewportRealtimeOverride(Z_Param_bInRealtime,Z_Param_SystemDisplayName);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execSetViewportRealtime)
+	{
+		P_GET_UBOOL(Z_Param_bInRealtime);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetViewportRealtime(Z_Param_bInRealtime);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execIsViewportRealtimeBranch)
+	{
+		P_GET_ENUM_REF(EBPEditorOutputBranch,Z_Param_Out_Branches);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->IsViewportRealtimeBranch((EBPEditorOutputBranch&)(Z_Param_Out_Branches));
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execIsViewportRealtime)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsViewportRealtime();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execIsInEditorBranch)
+	{
+		P_GET_ENUM_REF(EBPEditorOutputBranch,Z_Param_Out_Branches);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->IsInEditorBranch((EBPEditorOutputBranch&)(Z_Param_Out_Branches));
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execIsInEditor)
+	{
+		P_GET_UBOOL_REF(Z_Param_Out_InEditor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->IsInEditor(Z_Param_Out_InEditor);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execIsInPIEBranch)
+	{
+		P_GET_UBOOL_REF(Z_Param_Out_InSimulation);
+		P_GET_ENUM_REF(EBPEditorOutputBranch,Z_Param_Out_Branches);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->IsInPIEBranch(Z_Param_Out_InSimulation,(EBPEditorOutputBranch&)(Z_Param_Out_Branches));
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execIsInPIE)
+	{
+		P_GET_UBOOL_REF(Z_Param_Out_InPie);
+		P_GET_UBOOL_REF(Z_Param_Out_InSimulation);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->IsInPIE(Z_Param_Out_InPie,Z_Param_Out_InSimulation);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execGetEditorMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FText*)Z_Param__Result=P_THIS->GetEditorMode();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execHasFocusBranch)
+	{
+		P_GET_ENUM_REF(EBPEditorOutputBranch,Z_Param_Out_Branches);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->HasFocusBranch((EBPEditorOutputBranch&)(Z_Param_Out_Branches));
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execHasFocus)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->HasFocus();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execLineTrace)
+	{
+		P_GET_UBOOL(Z_Param_bTraceComplex);
+		P_GET_UBOOL(Z_Param_bShowTrace);
+		P_GET_TARRAY_REF(AActor*,Z_Param_Out_ActorsToIgnore);
+		P_GET_UBOOL_REF(Z_Param_Out_Success);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->LineTrace(Z_Param_bTraceComplex,Z_Param_bShowTrace,Z_Param_Out_ActorsToIgnore,Z_Param_Out_Success,Z_Param_Out_Hit);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execGetActorUnderMouseBranch)
+	{
+		P_GET_UBOOL(Z_Param_ShowTrace);
+		P_GET_OBJECT_REF(AActor,Z_Param_Out_Actor);
+		P_GET_ENUM_REF(EBPEditorOutputValidBranch,Z_Param_Out_Branches);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->GetActorUnderMouseBranch(Z_Param_ShowTrace,Z_Param_Out_Actor,(EBPEditorOutputValidBranch&)(Z_Param_Out_Branches));
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execGetActorUnderMouse)
+	{
+		P_GET_UBOOL(Z_Param_ShowTrace);
+		P_GET_UBOOL_REF(Z_Param_Out_Success);
+		P_GET_OBJECT_REF(AActor,Z_Param_Out_Actor);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->GetActorUnderMouse(Z_Param_ShowTrace,Z_Param_Out_Success,Z_Param_Out_Actor);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execGetMousePositionWorldBranch)
+	{
+		P_GET_UBOOL(Z_Param_ShowTrace);
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_WorldPos);
+		P_GET_ENUM_REF(EBPEditorOutputValidBranch,Z_Param_Out_Branches);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->GetMousePositionWorldBranch(Z_Param_ShowTrace,Z_Param_Out_WorldPos,(EBPEditorOutputValidBranch&)(Z_Param_Out_Branches));
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execGetMousePositionWorld)
+	{
+		P_GET_UBOOL(Z_Param_ShowTrace);
+		P_GET_UBOOL_REF(Z_Param_Out_Success);
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_WorldPos);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->GetMousePositionWorld(Z_Param_ShowTrace,Z_Param_Out_Success,Z_Param_Out_WorldPos);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UElgEditorContext_LevelEditor::execGetMousePosition)
+	{
+		P_GET_UBOOL_REF(Z_Param_Out_Success);
+		P_GET_STRUCT_REF(FVector2D,Z_Param_Out_Pos);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->GetMousePosition(Z_Param_Out_Success,Z_Param_Out_Pos);
+		P_NATIVE_END;
+	}
+	void UElgEditorContext_LevelEditor::StaticRegisterNativesUElgEditorContext_LevelEditor()
+	{
+		UClass* Class = UElgEditorContext_LevelEditor::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "FocusViewportCameraOnBox", &UElgEditorContext_LevelEditor::execFocusViewportCameraOnBox },
+			{ "GetActorUnderMouse", &UElgEditorContext_LevelEditor::execGetActorUnderMouse },
+			{ "GetActorUnderMouseBranch", &UElgEditorContext_LevelEditor::execGetActorUnderMouseBranch },
+			{ "GetEditorMode", &UElgEditorContext_LevelEditor::execGetEditorMode },
+			{ "GetMousePosition", &UElgEditorContext_LevelEditor::execGetMousePosition },
+			{ "GetMousePositionWorld", &UElgEditorContext_LevelEditor::execGetMousePositionWorld },
+			{ "GetMousePositionWorldBranch", &UElgEditorContext_LevelEditor::execGetMousePositionWorldBranch },
+			{ "GetViewportPerspectiveLocation", &UElgEditorContext_LevelEditor::execGetViewportPerspectiveLocation },
+			{ "HasFocus", &UElgEditorContext_LevelEditor::execHasFocus },
+			{ "HasFocusBranch", &UElgEditorContext_LevelEditor::execHasFocusBranch },
+			{ "IsInEditor", &UElgEditorContext_LevelEditor::execIsInEditor },
+			{ "IsInEditorBranch", &UElgEditorContext_LevelEditor::execIsInEditorBranch },
+			{ "IsInPIE", &UElgEditorContext_LevelEditor::execIsInPIE },
+			{ "IsInPIEBranch", &UElgEditorContext_LevelEditor::execIsInPIEBranch },
+			{ "IsViewportRealtime", &UElgEditorContext_LevelEditor::execIsViewportRealtime },
+			{ "IsViewportRealtimeBranch", &UElgEditorContext_LevelEditor::execIsViewportRealtimeBranch },
+			{ "LineTrace", &UElgEditorContext_LevelEditor::execLineTrace },
+			{ "MoveViewportCameraAndLookAt", &UElgEditorContext_LevelEditor::execMoveViewportCameraAndLookAt },
+			{ "MoveViewportCameraToActor", &UElgEditorContext_LevelEditor::execMoveViewportCameraToActor },
+			{ "RestoreViewportRealtime", &UElgEditorContext_LevelEditor::execRestoreViewportRealtime },
+			{ "SetViewportCamera", &UElgEditorContext_LevelEditor::execSetViewportCamera },
+			{ "SetViewportCameraLocation", &UElgEditorContext_LevelEditor::execSetViewportCameraLocation },
+			{ "SetViewportCameraLookAt", &UElgEditorContext_LevelEditor::execSetViewportCameraLookAt },
+			{ "SetViewportCameraRotation", &UElgEditorContext_LevelEditor::execSetViewportCameraRotation },
+			{ "SetViewportRealtime", &UElgEditorContext_LevelEditor::execSetViewportRealtime },
+			{ "SetViewportRealtimeOverride", &UElgEditorContext_LevelEditor::execSetViewportRealtimeOverride },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventFocusViewportCameraOnBox_Parms
+		{
+			FBox BoundingBox;
+			bool bInstant;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BoundingBox_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_BoundingBox;
+		static void NewProp_bInstant_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bInstant;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::NewProp_BoundingBox_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::NewProp_BoundingBox = { "BoundingBox", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventFocusViewportCameraOnBox_Parms, BoundingBox), Z_Construct_UScriptStruct_FBox, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::NewProp_BoundingBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::NewProp_BoundingBox_MetaData)) };
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::NewProp_bInstant_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventFocusViewportCameraOnBox_Parms*)Obj)->bInstant = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::NewProp_bInstant = { "bInstant", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventFocusViewportCameraOnBox_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::NewProp_bInstant_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::NewProp_BoundingBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::NewProp_bInstant,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|Leveleditor" },
+		{ "Comment", "/**\n\x09 * Focuses the viewport to the center of the bounding box ensuring that the entire box is in view\n\x09 *\n\x09 * @param BoundingBox\x09\x09\x09The box to focus\n\x09 * @param bInstant\x09\x09\x09Whether or not to focus the viewport instantly or over time\n\x09 */" },
+		{ "CPP_Default_bInstant", "false" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Focuses the viewport to the center of the bounding box ensuring that the entire box is in view\n\n@param BoundingBox                   The box to focus\n@param bInstant                      Whether or not to focus the viewport instantly or over time" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "FocusViewportCameraOnBox", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventFocusViewportCameraOnBox_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventGetActorUnderMouse_Parms
+		{
+			bool ShowTrace;
+			bool Success;
+			AActor* Actor;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShowTrace_MetaData[];
+#endif
+		static void NewProp_ShowTrace_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ShowTrace;
+		static void NewProp_Success_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Success;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_ShowTrace_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_ShowTrace_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventGetActorUnderMouse_Parms*)Obj)->ShowTrace = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_ShowTrace = { "ShowTrace", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventGetActorUnderMouse_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_ShowTrace_SetBit, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_ShowTrace_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_ShowTrace_MetaData)) };
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_Success_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventGetActorUnderMouse_Parms*)Obj)->Success = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventGetActorUnderMouse_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_Success_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_Actor = { "Actor", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetActorUnderMouse_Parms, Actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_ShowTrace,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_Success,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::NewProp_Actor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/*\n\x09\x09Return the actor under the mouse in the Level Editor Viewport.\n\x09\x09""Does a line trace from the camera to the mouse pointer.\n\x09\x09If nothing in the world is hit it will return false.\n\x09*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return the actor under the mouse in the Level Editor Viewport.\nDoes a line trace from the camera to the mouse pointer.\nIf nothing in the world is hit it will return false." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "GetActorUnderMouse", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventGetActorUnderMouse_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventGetActorUnderMouseBranch_Parms
+		{
+			bool ShowTrace;
+			AActor* Actor;
+			EBPEditorOutputValidBranch Branches;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShowTrace_MetaData[];
+#endif
+		static void NewProp_ShowTrace_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ShowTrace;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Branches_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_Branches;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_ShowTrace_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_ShowTrace_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventGetActorUnderMouseBranch_Parms*)Obj)->ShowTrace = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_ShowTrace = { "ShowTrace", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventGetActorUnderMouseBranch_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_ShowTrace_SetBit, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_ShowTrace_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_ShowTrace_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_Actor = { "Actor", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetActorUnderMouseBranch_Parms, Actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_Branches_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_Branches = { "Branches", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetActorUnderMouseBranch_Parms, Branches), Z_Construct_UEnum_ElgEditorScripting_EBPEditorOutputValidBranch, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_ShowTrace,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_Actor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_Branches_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::NewProp_Branches,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/*\n\x09\x09Return the actor under the mouse in the Level Editor Viewport with branch Pins.\n\x09\x09""Does a line trace from the camera to the mouse pointer.\n\x09\x09If nothing in the world is hit it will return false.\n\x09*/" },
+		{ "ExpandEnumAsExecs", "Branches" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return the actor under the mouse in the Level Editor Viewport with branch Pins.\nDoes a line trace from the camera to the mouse pointer.\nIf nothing in the world is hit it will return false." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "GetActorUnderMouseBranch", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventGetActorUnderMouseBranch_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventGetEditorMode_Parms
+		{
+			FText ReturnValue;
+		};
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetEditorMode_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Return the name of the selected EditorMode */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return the name of the selected EditorMode" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "GetEditorMode", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventGetEditorMode_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventGetMousePosition_Parms
+		{
+			bool Success;
+			FVector2D Pos;
+		};
+		static void NewProp_Success_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Success;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Pos;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::NewProp_Success_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventGetMousePosition_Parms*)Obj)->Success = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventGetMousePosition_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::NewProp_Success_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::NewProp_Pos = { "Pos", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetMousePosition_Parms, Pos), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::NewProp_Success,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::NewProp_Pos,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* \n\x09\x09Return the position of the mouse in the Level Editor Viewport.\n\x09\x09If the Level editor not are in focus it will return false.\n\x09*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return the position of the mouse in the Level Editor Viewport.\nIf the Level editor not are in focus it will return false." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "GetMousePosition", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventGetMousePosition_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventGetMousePositionWorld_Parms
+		{
+			bool ShowTrace;
+			bool Success;
+			FVector WorldPos;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShowTrace_MetaData[];
+#endif
+		static void NewProp_ShowTrace_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ShowTrace;
+		static void NewProp_Success_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Success;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_WorldPos;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_ShowTrace_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_ShowTrace_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventGetMousePositionWorld_Parms*)Obj)->ShowTrace = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_ShowTrace = { "ShowTrace", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventGetMousePositionWorld_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_ShowTrace_SetBit, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_ShowTrace_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_ShowTrace_MetaData)) };
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_Success_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventGetMousePositionWorld_Parms*)Obj)->Success = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventGetMousePositionWorld_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_Success_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_WorldPos = { "WorldPos", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetMousePositionWorld_Parms, WorldPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_ShowTrace,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_Success,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::NewProp_WorldPos,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* \n\x09\x09Return the world position of the mouse in the Level Editor Viewport.\n\x09\x09""Does a line trace from the camera to the mouse pointer.\n\x09\x09If nothing in the world is hit it will return false.\n\x09*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return the world position of the mouse in the Level Editor Viewport.\nDoes a line trace from the camera to the mouse pointer.\nIf nothing in the world is hit it will return false." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "GetMousePositionWorld", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventGetMousePositionWorld_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventGetMousePositionWorldBranch_Parms
+		{
+			bool ShowTrace;
+			FVector WorldPos;
+			EBPEditorOutputValidBranch Branches;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ShowTrace_MetaData[];
+#endif
+		static void NewProp_ShowTrace_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ShowTrace;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_WorldPos;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Branches_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_Branches;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_ShowTrace_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_ShowTrace_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventGetMousePositionWorldBranch_Parms*)Obj)->ShowTrace = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_ShowTrace = { "ShowTrace", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventGetMousePositionWorldBranch_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_ShowTrace_SetBit, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_ShowTrace_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_ShowTrace_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_WorldPos = { "WorldPos", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetMousePositionWorldBranch_Parms, WorldPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_Branches_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_Branches = { "Branches", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetMousePositionWorldBranch_Parms, Branches), Z_Construct_UEnum_ElgEditorScripting_EBPEditorOutputValidBranch, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_ShowTrace,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_WorldPos,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_Branches_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::NewProp_Branches,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/*\n\x09\x09Return the world position of the mouse in the Level Editor Viewport with branch pins.\n\x09\x09""Does a line trace from the camera to the mouse pointer.\n\x09\x09If nothing in the world is hit it will return false.\n\x09*/" },
+		{ "ExpandEnumAsExecs", "Branches" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return the world position of the mouse in the Level Editor Viewport with branch pins.\nDoes a line trace from the camera to the mouse pointer.\nIf nothing in the world is hit it will return false." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "GetMousePositionWorldBranch", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventGetMousePositionWorldBranch_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventGetViewportPerspectiveLocation_Parms
+		{
+			FVector CameraLocation;
+			FVector CameraLookAt;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_CameraLocation;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_CameraLookAt;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::NewProp_CameraLocation = { "CameraLocation", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetViewportPerspectiveLocation_Parms, CameraLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::NewProp_CameraLookAt = { "CameraLookAt", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventGetViewportPerspectiveLocation_Parms, CameraLookAt), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::NewProp_CameraLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::NewProp_CameraLookAt,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|Leveleditor" },
+		{ "Comment", "/*\n\x09\x09Return the Position and look at position of the Level editor Perspective camera.\n\x09*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return the Position and look at position of the Level editor Perspective camera." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "GetViewportPerspectiveLocation", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventGetViewportPerspectiveLocation_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventHasFocus_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventHasFocus_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventHasFocus_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Return if a Level Editor viewport is in focus or not */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return if a Level Editor viewport is in focus or not" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "HasFocus", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventHasFocus_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventHasFocusBranch_Parms
+		{
+			EBPEditorOutputBranch Branches;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Branches_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_Branches;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::NewProp_Branches_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::NewProp_Branches = { "Branches", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventHasFocusBranch_Parms, Branches), Z_Construct_UEnum_ElgEditorScripting_EBPEditorOutputBranch, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::NewProp_Branches_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::NewProp_Branches,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Return if a Level Editor viewport is in focus or not with branch pins*/" },
+		{ "ExpandEnumAsExecs", "Branches" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return if a Level Editor viewport is in focus or not with branch pins" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "HasFocusBranch", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventHasFocusBranch_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventIsInEditor_Parms
+		{
+			bool InEditor;
+		};
+		static void NewProp_InEditor_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_InEditor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::NewProp_InEditor_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventIsInEditor_Parms*)Obj)->InEditor = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::NewProp_InEditor = { "InEditor", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventIsInEditor_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::NewProp_InEditor_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::NewProp_InEditor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Return if we currently are in Editor and not PIE/Simulation */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return if we currently are in Editor and not PIE/Simulation" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "IsInEditor", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventIsInEditor_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventIsInEditorBranch_Parms
+		{
+			EBPEditorOutputBranch Branches;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Branches_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_Branches;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::NewProp_Branches_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::NewProp_Branches = { "Branches", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventIsInEditorBranch_Parms, Branches), Z_Construct_UEnum_ElgEditorScripting_EBPEditorOutputBranch, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::NewProp_Branches_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::NewProp_Branches,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Return if we currently are in Editor and not PIE/Simulation */" },
+		{ "ExpandEnumAsExecs", "Branches" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return if we currently are in Editor and not PIE/Simulation" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "IsInEditorBranch", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventIsInEditorBranch_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventIsInPIE_Parms
+		{
+			bool InPie;
+			bool InSimulation;
+		};
+		static void NewProp_InPie_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_InPie;
+		static void NewProp_InSimulation_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_InSimulation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::NewProp_InPie_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventIsInPIE_Parms*)Obj)->InPie = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::NewProp_InPie = { "InPie", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventIsInPIE_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::NewProp_InPie_SetBit, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::NewProp_InSimulation_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventIsInPIE_Parms*)Obj)->InSimulation = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::NewProp_InSimulation = { "InSimulation", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventIsInPIE_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::NewProp_InSimulation_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::NewProp_InPie,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::NewProp_InSimulation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Return if we currently are in PIE/Simulation or not */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return if we currently are in PIE/Simulation or not" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "IsInPIE", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventIsInPIE_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventIsInPIEBranch_Parms
+		{
+			bool InSimulation;
+			EBPEditorOutputBranch Branches;
+		};
+		static void NewProp_InSimulation_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_InSimulation;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Branches_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_Branches;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::NewProp_InSimulation_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventIsInPIEBranch_Parms*)Obj)->InSimulation = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::NewProp_InSimulation = { "InSimulation", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventIsInPIEBranch_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::NewProp_InSimulation_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::NewProp_Branches_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::NewProp_Branches = { "Branches", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventIsInPIEBranch_Parms, Branches), Z_Construct_UEnum_ElgEditorScripting_EBPEditorOutputBranch, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::NewProp_InSimulation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::NewProp_Branches_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::NewProp_Branches,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Return if we currently are in PIE/Simulation or not */" },
+		{ "ExpandEnumAsExecs", "Branches" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return if we currently are in PIE/Simulation or not" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "IsInPIEBranch", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventIsInPIEBranch_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventIsViewportRealtime_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventIsViewportRealtime_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventIsViewportRealtime_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Return if the current viewport is rendering in real time or not */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return if the current viewport is rendering in real time or not" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "IsViewportRealtime", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventIsViewportRealtime_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventIsViewportRealtimeBranch_Parms
+		{
+			EBPEditorOutputBranch Branches;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Branches_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_Branches;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::NewProp_Branches_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::NewProp_Branches = { "Branches", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventIsViewportRealtimeBranch_Parms, Branches), Z_Construct_UEnum_ElgEditorScripting_EBPEditorOutputBranch, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::NewProp_Branches_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::NewProp_Branches,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/*  Return if the current viewport is rendering in real time or not with branch pins */" },
+		{ "ExpandEnumAsExecs", "Branches" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Return if the current viewport is rendering in real time or not with branch pins" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "IsViewportRealtimeBranch", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventIsViewportRealtimeBranch_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventLineTrace_Parms
+		{
+			bool bTraceComplex;
+			bool bShowTrace;
+			TArray<AActor*> ActorsToIgnore;
+			bool Success;
+			FHitResult Hit;
+		};
+		static void NewProp_bTraceComplex_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bTraceComplex;
+		static void NewProp_bShowTrace_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bShowTrace;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActorsToIgnore_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorsToIgnore_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ActorsToIgnore;
+		static void NewProp_Success_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Success;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Hit;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_bTraceComplex_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventLineTrace_Parms*)Obj)->bTraceComplex = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_bTraceComplex = { "bTraceComplex", nullptr, (EPropertyFlags)0x0010040000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventLineTrace_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_bTraceComplex_SetBit, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_bShowTrace_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventLineTrace_Parms*)Obj)->bShowTrace = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_bShowTrace = { "bShowTrace", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventLineTrace_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_bShowTrace_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_ActorsToIgnore_Inner = { "ActorsToIgnore", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_ActorsToIgnore_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_ActorsToIgnore = { "ActorsToIgnore", nullptr, (EPropertyFlags)0x0010040008000182, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventLineTrace_Parms, ActorsToIgnore), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_ActorsToIgnore_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_ActorsToIgnore_MetaData)) };
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_Success_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventLineTrace_Parms*)Obj)->Success = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_Success = { "Success", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventLineTrace_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_Success_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventLineTrace_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_bTraceComplex,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_bShowTrace,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_ActorsToIgnore_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_ActorsToIgnore,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_Success,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::NewProp_Hit,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::Function_MetaDataParams[] = {
+		{ "AdvancedDisplay", "bTraceComplex, ActorsToIgnore" },
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/**\n\x09 * Does a collision trace from the Editor camera to the mouse position and returns the first hit encountered.\n\x09 * This only finds objects that are of a type specified by ObjectTypes.\n\x09 *\n\x09 * @param bTraceComplex\x09True to test against complex collision, false to test against simplified collision.\n\x09 * @param bShowTrace\x09\x09True to show the trace in the editor.\n\x09 * @param Success\x09\x09True if there was a hit, false otherwise.\n\x09 * @param OutHit\x09\x09Properties of the trace hit.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Does a collision trace from the Editor camera to the mouse position and returns the first hit encountered.\nThis only finds objects that are of a type specified by ObjectTypes.\n\n@param bTraceComplex True to test against complex collision, false to test against simplified collision.\n@param bShowTrace            True to show the trace in the editor.\n@param Success               True if there was a hit, false otherwise.\n@param OutHit                Properties of the trace hit." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "LineTrace", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventLineTrace_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventMoveViewportCameraAndLookAt_Parms
+		{
+			FVector NewLocation;
+			FVector LookAtLocation;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NewLocation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LookAtLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_LookAtLocation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_NewLocation_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_NewLocation = { "NewLocation", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventMoveViewportCameraAndLookAt_Parms, NewLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_NewLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_NewLocation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_LookAtLocation_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_LookAtLocation = { "LookAtLocation", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventMoveViewportCameraAndLookAt_Parms, LookAtLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_LookAtLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_LookAtLocation_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_NewLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::NewProp_LookAtLocation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|Leveleditor" },
+		{ "Comment", "/* Move the camera and look at a location */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Move the camera and look at a location" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "MoveViewportCameraAndLookAt", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventMoveViewportCameraAndLookAt_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventMoveViewportCameraToActor_Parms
+		{
+			AActor* Actor;
+			bool bActiveViewportOnly;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Actor;
+		static void NewProp_bActiveViewportOnly_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bActiveViewportOnly;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::NewProp_Actor = { "Actor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventMoveViewportCameraToActor_Parms, Actor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::NewProp_bActiveViewportOnly_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventMoveViewportCameraToActor_Parms*)Obj)->bActiveViewportOnly = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::NewProp_bActiveViewportOnly = { "bActiveViewportOnly", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventMoveViewportCameraToActor_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::NewProp_bActiveViewportOnly_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::NewProp_Actor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::NewProp_bActiveViewportOnly,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|Leveleditor" },
+		{ "Comment", "/* Move the camera to the actor */" },
+		{ "CPP_Default_bActiveViewportOnly", "false" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Move the camera to the actor" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "MoveViewportCameraToActor", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventMoveViewportCameraToActor_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventRestoreViewportRealtime_Parms
+		{
+			FText SystemDisplayName;
+		};
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_SystemDisplayName;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::NewProp_SystemDisplayName = { "SystemDisplayName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventRestoreViewportRealtime_Parms, SystemDisplayName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::NewProp_SystemDisplayName,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Removes the current realtime override.  If there was another realtime override set it will restore that override\n\x09*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Removes the current realtime override.  If there was another realtime override set it will restore that override" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "RestoreViewportRealtime", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventRestoreViewportRealtime_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventSetViewportCamera_Parms
+		{
+			FVector NewLocation;
+			FRotator NewRotation;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NewLocation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewRotation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NewRotation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewLocation_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewLocation = { "NewLocation", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventSetViewportCamera_Parms, NewLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewLocation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewRotation_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewRotation = { "NewRotation", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventSetViewportCamera_Parms, NewRotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewRotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewRotation_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::NewProp_NewRotation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|Leveleditor" },
+		{ "Comment", "/** Sets the location and rotation of the viewport's camera */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Sets the location and rotation of the viewport's camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "SetViewportCamera", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventSetViewportCamera_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventSetViewportCameraLocation_Parms
+		{
+			FVector NewLocation;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NewLocation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::NewProp_NewLocation_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::NewProp_NewLocation = { "NewLocation", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventSetViewportCameraLocation_Parms, NewLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::NewProp_NewLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::NewProp_NewLocation_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::NewProp_NewLocation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|Leveleditor" },
+		{ "Comment", "/** Sets the location of the viewport's camera */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Sets the location of the viewport's camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "SetViewportCameraLocation", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventSetViewportCameraLocation_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventSetViewportCameraLookAt_Parms
+		{
+			FVector LookAt;
+			bool bRecalculateView;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LookAt_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_LookAt;
+		static void NewProp_bRecalculateView_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bRecalculateView;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::NewProp_LookAt_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::NewProp_LookAt = { "LookAt", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventSetViewportCameraLookAt_Parms, LookAt), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::NewProp_LookAt_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::NewProp_LookAt_MetaData)) };
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::NewProp_bRecalculateView_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventSetViewportCameraLookAt_Parms*)Obj)->bRecalculateView = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::NewProp_bRecalculateView = { "bRecalculateView", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventSetViewportCameraLookAt_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::NewProp_bRecalculateView_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::NewProp_LookAt,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::NewProp_bRecalculateView,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|Leveleditor" },
+		{ "Comment", "/**\n\x09 * Sets the look at location of the viewport's camera for orbit *\n\x09 *\n\x09 * @param LookAt The new look at location\n\x09 * @param bRecalulateView\x09If true, will recalculate view location and rotation to look at the new point immediatley\n\x09 */" },
+		{ "CPP_Default_bRecalculateView", "true" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Sets the look at location of the viewport's camera for orbit *\n\n@param LookAt The new look at location\n@param bRecalulateView       If true, will recalculate view location and rotation to look at the new point immediatley" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "SetViewportCameraLookAt", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventSetViewportCameraLookAt_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventSetViewportCameraRotation_Parms
+		{
+			FRotator NewRotation;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NewRotation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NewRotation;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::NewProp_NewRotation_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::NewProp_NewRotation = { "NewRotation", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventSetViewportCameraRotation_Parms, NewRotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::NewProp_NewRotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::NewProp_NewRotation_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::NewProp_NewRotation,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|Leveleditor" },
+		{ "Comment", "/** Sets the rotation of the viewport's camera */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Sets the rotation of the viewport's camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "SetViewportCameraRotation", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventSetViewportCameraRotation_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventSetViewportRealtime_Parms
+		{
+			bool bInRealtime;
+		};
+		static void NewProp_bInRealtime_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bInRealtime;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::NewProp_bInRealtime_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventSetViewportRealtime_Parms*)Obj)->bInRealtime = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::NewProp_bInRealtime = { "bInRealtime", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventSetViewportRealtime_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::NewProp_bInRealtime_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::NewProp_bInRealtime,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* Sets whether or not the viewport updates in real time.\n\x09\x09No longer takes bStoreCurrentValue\n\x09*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Sets whether or not the viewport updates in real time.\n              No longer takes bStoreCurrentValue" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "SetViewportRealtime", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventSetViewportRealtime_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics
+	{
+		struct ElgEditorContext_LevelEditor_eventSetViewportRealtimeOverride_Parms
+		{
+			bool bInRealtime;
+			FText SystemDisplayName;
+		};
+		static void NewProp_bInRealtime_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bInRealtime;
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_SystemDisplayName;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::NewProp_bInRealtime_SetBit(void* Obj)
+	{
+		((ElgEditorContext_LevelEditor_eventSetViewportRealtimeOverride_Parms*)Obj)->bInRealtime = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::NewProp_bInRealtime = { "bInRealtime", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ElgEditorContext_LevelEditor_eventSetViewportRealtimeOverride_Parms), &Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::NewProp_bInRealtime_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::NewProp_SystemDisplayName = { "SystemDisplayName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ElgEditorContext_LevelEditor_eventSetViewportRealtimeOverride_Parms, SystemDisplayName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::NewProp_bInRealtime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::NewProp_SystemDisplayName,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::Function_MetaDataParams[] = {
+		{ "Category", "ElgEditor|LevelEditor" },
+		{ "Comment", "/* \n\x09 * Overrides the realtime state of this viewport until RemoveViewportsRealtimeOverride is called.\n\x09 * The state of this override is not preserved between editor sessions.\n\x09 *\n\x09 * @param bInRealtime\x09If true, this viewport will be realtime, if false this viewport will not be realtime\n\x09 * @param SystemDisplayName\x09This display name of whatever system is overriding realtime. This name is displayed to users in the viewport options menu\n\x09*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "* Overrides the realtime state of this viewport until RemoveViewportsRealtimeOverride is called.\n* The state of this override is not preserved between editor sessions.\n*\n* @param bInRealtime   If true, this viewport will be realtime, if false this viewport will not be realtime\n* @param SystemDisplayName     This display name of whatever system is overriding realtime. This name is displayed to users in the viewport options menu" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UElgEditorContext_LevelEditor, nullptr, "SetViewportRealtimeOverride", nullptr, nullptr, sizeof(ElgEditorContext_LevelEditor_eventSetViewportRealtimeOverride_Parms), Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_UElgEditorContext_LevelEditor_NoRegister()
+	{
+		return UElgEditorContext_LevelEditor::StaticClass();
+	}
+	struct Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnLevelActorAddedNative_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnLevelActorAddedNative;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnLevelActorAdded_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnLevelActorAdded;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnLevelActorDeletedNative_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnLevelActorDeletedNative;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnLevelActorDeleted_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnLevelActorDeleted;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnLevelActorAttached_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnLevelActorAttached;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnLevelActorDetached_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnLevelActorDetached;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnActorMoved_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnActorMoved;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnWorldAdded_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnWorldAdded;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnWorldDestroyed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnWorldDestroyed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnActorSelectionChanged_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnActorSelectionChanged;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnActorSelected_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnActorSelected;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnActorDeselected_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnActorDeselected;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OldActorSelection_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OldActorSelection_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_OldActorSelection;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnEditorCameraMoved_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnEditorCameraMoved;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnFocusViewportOnActors_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnFocusViewportOnActors;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsInPIE_MetaData[];
+#endif
+		static void NewProp_bIsInPIE_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsInPIE;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsSimulatingPIE_MetaData[];
+#endif
+		static void NewProp_bIsSimulatingPIE_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsSimulatingPIE;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnBeginPIE_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnBeginPIE;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnEndPIE_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnEndPIE;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnPausePIE_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnPausePIE;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnResumePIE_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnResumePIE;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnBeginStandaloneLocalPlay_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnBeginStandaloneLocalPlay;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnMapOpened_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnMapOpened;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnMapChanged_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnMapChanged;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentEditorMode_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_CurrentEditorMode;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnEnterMode_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnEnterMode;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnExitMode_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnExitMode;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnEditorModeChanged_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnEditorModeChanged;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnLeftMouseClick_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnLeftMouseClick;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnMiddleMouseClick_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnMiddleMouseClick;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnRightMouseClick_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnRightMouseClick;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnInputKey_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnInputKey;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnLevelActorPropertyChanged_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnLevelActorPropertyChanged;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UObject,
+		(UObject* (*)())Z_Construct_UPackage__Script_ElgEditorScripting,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_FocusViewportCameraOnBox, "FocusViewportCameraOnBox" }, // 3749018929
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouse, "GetActorUnderMouse" }, // 2016927683
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetActorUnderMouseBranch, "GetActorUnderMouseBranch" }, // 4032026462
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetEditorMode, "GetEditorMode" }, // 3063793393
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePosition, "GetMousePosition" }, // 4138388770
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorld, "GetMousePositionWorld" }, // 2522235365
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetMousePositionWorldBranch, "GetMousePositionWorldBranch" }, // 2011972282
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_GetViewportPerspectiveLocation, "GetViewportPerspectiveLocation" }, // 3614369030
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocus, "HasFocus" }, // 1983241023
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_HasFocusBranch, "HasFocusBranch" }, // 3465959555
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditor, "IsInEditor" }, // 3792156544
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInEditorBranch, "IsInEditorBranch" }, // 2395187911
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIE, "IsInPIE" }, // 2220079195
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsInPIEBranch, "IsInPIEBranch" }, // 3771153284
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtime, "IsViewportRealtime" }, // 2180127586
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_IsViewportRealtimeBranch, "IsViewportRealtimeBranch" }, // 2258849492
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_LineTrace, "LineTrace" }, // 3380284472
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraAndLookAt, "MoveViewportCameraAndLookAt" }, // 1933837902
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_MoveViewportCameraToActor, "MoveViewportCameraToActor" }, // 3555156177
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_RestoreViewportRealtime, "RestoreViewportRealtime" }, // 2857769412
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCamera, "SetViewportCamera" }, // 2782242499
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLocation, "SetViewportCameraLocation" }, // 672670583
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraLookAt, "SetViewportCameraLookAt" }, // 4141153002
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportCameraRotation, "SetViewportCameraRotation" }, // 1026264243
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtime, "SetViewportRealtime" }, // 844388
+		{ &Z_Construct_UFunction_UElgEditorContext_LevelEditor_SetViewportRealtimeOverride, "SetViewportRealtimeOverride" }, // 2163605822
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "Comment", "/**\n * \n */" },
+		{ "IncludePath", "EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAddedNative_MetaData[] = {
+		{ "Comment", "/* \n\x09\x09""Event when an Actor is added.\n\x09\x09""Actors that are drag and dropped will generate at least two events... \n\x09\x09one for the temp actor and another when its placed in the world.\n\x09\x09\n\x09\x09Use OnLevelActorAdded to only get events when an actor is placed in the level.\n\x09*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when an Actor is added.\nActors that are drag and dropped will generate at least two events...\none for the temp actor and another when its placed in the world.\n\nUse OnLevelActorAdded to only get events when an actor is placed in the level." },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAddedNative = { "OnLevelActorAddedNative", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnLevelActorAddedNative), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedNativeSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAddedNative_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAddedNative_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAdded_MetaData[] = {
+		{ "Comment", "/* Event when an Actor is added (placed) to the level. */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when an Actor is added (placed) to the level." },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAdded = { "OnLevelActorAdded", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnLevelActorAdded), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAddedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAdded_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAdded_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeletedNative_MetaData[] = {
+		{ "Comment", "/* Event when an Actor is deleted*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when an Actor is deleted" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeletedNative = { "OnLevelActorDeletedNative", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnLevelActorDeletedNative), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedNativeSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeletedNative_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeletedNative_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeleted_MetaData[] = {
+		{ "Comment", "/* Event when an placed Actor is deleted from the level. */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when an placed Actor is deleted from the level." },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeleted = { "OnLevelActorDeleted", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnLevelActorDeleted), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDeletedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeleted_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeleted_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAttached_MetaData[] = {
+		{ "Comment", "/* Event when an Actor is added to the level. */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when an Actor is added to the level." },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAttached = { "OnLevelActorAttached", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnLevelActorAttached), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorAttachedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAttached_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAttached_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDetached_MetaData[] = {
+		{ "Comment", "/* Event when an Actor is added to the level. */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when an Actor is added to the level." },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDetached = { "OnLevelActorDetached", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnLevelActorDetached), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnLevelActorDetachedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDetached_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDetached_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorMoved_MetaData[] = {
+		{ "Comment", "/* Event when an Actor is moved in the level. */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when an Actor is moved in the level." },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorMoved = { "OnActorMoved", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnActorMoved), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorMovedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorMoved_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorMoved_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldAdded_MetaData[] = {
+		{ "Comment", "/* Event when a world is added */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when a world is added" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldAdded = { "OnWorldAdded", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnWorldAdded), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldAddedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldAdded_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldAdded_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldDestroyed_MetaData[] = {
+		{ "Comment", "/* Event when World is destroyed */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when World is destroyed" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldDestroyed = { "OnWorldDestroyed", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnWorldDestroyed), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnWorldDestroyedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldDestroyed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldDestroyed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelectionChanged_MetaData[] = {
+		{ "Comment", "/* Event when the selection in the level editor is changed. */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when the selection in the level editor is changed." },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelectionChanged = { "OnActorSelectionChanged", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnActorSelectionChanged), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectionChangedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelectionChanged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelectionChanged_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelected_MetaData[] = {
+		{ "Comment", "/* Event when a actor is selected. */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when a actor is selected." },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelected = { "OnActorSelected", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnActorSelected), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorSelectedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelected_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorDeselected_MetaData[] = {
+		{ "Comment", "/* Event when a actor is deselected. */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when a actor is deselected." },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorDeselected = { "OnActorDeselected", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnActorDeselected), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnActorDeselectedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorDeselected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorDeselected_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OldActorSelection_Inner = { "OldActorSelection", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OldActorSelection_MetaData[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OldActorSelection = { "OldActorSelection", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OldActorSelection), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OldActorSelection_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OldActorSelection_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorCameraMoved_MetaData[] = {
+		{ "Comment", "/* Event when the camera is moved in the editor */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when the camera is moved in the editor" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorCameraMoved = { "OnEditorCameraMoved", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnEditorCameraMoved), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorCameraMovedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorCameraMoved_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorCameraMoved_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnFocusViewportOnActors_MetaData[] = {
+		{ "Comment", "/* Event when the level editor is focus on some actors */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when the level editor is focus on some actors" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnFocusViewportOnActors = { "OnFocusViewportOnActors", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnFocusViewportOnActors), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnFocusViewportOnActorsSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnFocusViewportOnActors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnFocusViewportOnActors_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsInPIE_MetaData[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	void Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsInPIE_SetBit(void* Obj)
+	{
+		((UElgEditorContext_LevelEditor*)Obj)->bIsInPIE = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsInPIE = { "bIsInPIE", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UElgEditorContext_LevelEditor), &Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsInPIE_SetBit, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsInPIE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsInPIE_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsSimulatingPIE_MetaData[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	void Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsSimulatingPIE_SetBit(void* Obj)
+	{
+		((UElgEditorContext_LevelEditor*)Obj)->bIsSimulatingPIE = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsSimulatingPIE = { "bIsSimulatingPIE", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UElgEditorContext_LevelEditor), &Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsSimulatingPIE_SetBit, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsSimulatingPIE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsSimulatingPIE_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginPIE_MetaData[] = {
+		{ "Comment", "/** Event when a PIE session is beginning (but hasn't actually started yet) */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when a PIE session is beginning (but hasn't actually started yet)" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginPIE = { "OnBeginPIE", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnBeginPIE), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginPIE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginPIE_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEndPIE_MetaData[] = {
+		{ "Comment", "/** Event when a PIE session is ending */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when a PIE session is ending" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEndPIE = { "OnEndPIE", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnEndPIE), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEndPIE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEndPIE_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnPausePIE_MetaData[] = {
+		{ "Comment", "/** Event when a PIE session is paused */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when a PIE session is paused" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnPausePIE = { "OnPausePIE", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnPausePIE), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnPausePIE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnPausePIE_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnResumePIE_MetaData[] = {
+		{ "Comment", "/** Event when a PIE session is resumed */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when a PIE session is resumed" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnResumePIE = { "OnResumePIE", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnResumePIE), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginPIESignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnResumePIE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnResumePIE_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginStandaloneLocalPlay_MetaData[] = {
+		{ "Comment", "/** Event for when a standalone local play start */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event for when a standalone local play start" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginStandaloneLocalPlay = { "OnBeginStandaloneLocalPlay", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnBeginStandaloneLocalPlay), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsBeginStandaloneLocalPlaySignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginStandaloneLocalPlay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginStandaloneLocalPlay_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapOpened_MetaData[] = {
+		{ "Comment", "/** Event for when a map is opened */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event for when a map is opened" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapOpened = { "OnMapOpened", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnMapOpened), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMapOpenedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapOpened_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapOpened_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapChanged_MetaData[] = {
+		{ "Comment", "/** Event for when a map is changed, \n\x09\x09""1 = MapChangeFlags::NewMap\n\x09\x09""2 = MapChangeFlags::MapRebuild\n\x09\x09""3 = MapChangeFlags::WorldTornDown\n\x09*/" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event for when a map is changed,\n              1 = MapChangeFlags::NewMap\n              2 = MapChangeFlags::MapRebuild\n              3 = MapChangeFlags::WorldTornDown" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapChanged = { "OnMapChanged", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnMapChanged), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsMapChangeSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapChanged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapChanged_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_CurrentEditorMode_MetaData[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_CurrentEditorMode = { "CurrentEditorMode", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, CurrentEditorMode), METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_CurrentEditorMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_CurrentEditorMode_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEnterMode_MetaData[] = {
+		{ "Comment", "/** Event when enter a Editor Mode */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when enter a Editor Mode" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEnterMode = { "OnEnterMode", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnEnterMode), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEnterMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEnterMode_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnExitMode_MetaData[] = {
+		{ "Comment", "/** Event when exit a Editor Mode */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when exit a Editor Mode" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnExitMode = { "OnExitMode", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnExitMode), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnExitMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnExitMode_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorModeChanged_MetaData[] = {
+		{ "Comment", "/* Event when the Editor Mode change */" },
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+		{ "ToolTip", "Event when the Editor Mode change" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorModeChanged = { "OnEditorModeChanged", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnEditorModeChanged), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnEditorModeSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorModeChanged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorModeChanged_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLeftMouseClick_MetaData[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLeftMouseClick = { "OnLeftMouseClick", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnLeftMouseClick), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLeftMouseClick_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLeftMouseClick_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMiddleMouseClick_MetaData[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMiddleMouseClick = { "OnMiddleMouseClick", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnMiddleMouseClick), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMiddleMouseClick_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMiddleMouseClick_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnRightMouseClick_MetaData[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnRightMouseClick = { "OnRightMouseClick", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnRightMouseClick), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnMouseClickSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnRightMouseClick_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnRightMouseClick_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnInputKey_MetaData[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnInputKey = { "OnInputKey", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnInputKey), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnInputKeySignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnInputKey_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnInputKey_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorPropertyChanged_MetaData[] = {
+		{ "ModuleRelativePath", "Public/EditorContexts/ElgEditorContext_LevelEditor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorPropertyChanged = { "OnLevelActorPropertyChanged", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UElgEditorContext_LevelEditor, OnLevelActorPropertyChanged), Z_Construct_UDelegateFunction_ElgEditorScripting_ElgEditorEventsOnObjectPropertyChangedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorPropertyChanged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorPropertyChanged_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAddedNative,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAdded,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeletedNative,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDeleted,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorAttached,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorDetached,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorMoved,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldAdded,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnWorldDestroyed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelectionChanged,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorSelected,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnActorDeselected,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OldActorSelection_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OldActorSelection,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorCameraMoved,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnFocusViewportOnActors,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsInPIE,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_bIsSimulatingPIE,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginPIE,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEndPIE,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnPausePIE,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnResumePIE,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnBeginStandaloneLocalPlay,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapOpened,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMapChanged,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_CurrentEditorMode,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEnterMode,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnExitMode,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnEditorModeChanged,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLeftMouseClick,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnMiddleMouseClick,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnRightMouseClick,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnInputKey,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::NewProp_OnLevelActorPropertyChanged,
+	};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UElgEditorContext_LevelEditor>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::ClassParams = {
+		&UElgEditorContext_LevelEditor::StaticClass,
+		nullptr,
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::PropPointers,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::PropPointers),
+		0,
+		0x009000A0u,
+		METADATA_PARAMS(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UElgEditorContext_LevelEditor()
+	{
+		static UClass* OuterClass = nullptr;
+		if (!OuterClass)
+		{
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_UElgEditorContext_LevelEditor_Statics::ClassParams);
+		}
+		return OuterClass;
+	}
+	IMPLEMENT_CLASS(UElgEditorContext_LevelEditor, 2888911842);
+	template<> ELGEDITORSCRIPTING_API UClass* StaticClass<UElgEditorContext_LevelEditor>()
+	{
+		return UElgEditorContext_LevelEditor::StaticClass();
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UElgEditorContext_LevelEditor(Z_Construct_UClass_UElgEditorContext_LevelEditor, &UElgEditorContext_LevelEditor::StaticClass, TEXT("/Script/ElgEditorScripting"), TEXT("UElgEditorContext_LevelEditor"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UElgEditorContext_LevelEditor);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+#ifdef _MSC_VER
+#pragma warning (pop)
+#endif
