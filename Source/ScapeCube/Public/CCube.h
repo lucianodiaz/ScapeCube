@@ -46,7 +46,7 @@ public:
 private:
 	
 	
-	
+	int32 CantMovement;
 	bool bIsMoving;
 
 	FVector MoveTo;

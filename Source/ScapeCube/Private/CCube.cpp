@@ -18,6 +18,8 @@ ACCube::ACCube()
 	bIsMoving = false;
 
 	MoveTo = GetActorLocation();
+
+	CantMovement = 0;
 }
 
 // Called when the game starts or when spawned
@@ -58,8 +60,8 @@ void ACCube::MoveCube(int Direction, bool UpWay)
 	const FVector Start = GetActorLocation();
 	FHitResult HitResult;
 
-	float OffsetX {50};
-	float OffsetY {50};
+	float OffsetX;
+	float OffsetY;
 	
 	if(UpWay)
 	{
@@ -81,7 +83,9 @@ void ACCube::MoveCube(int Direction, bool UpWay)
 		GetWorld()->LineTraceSingleByChannel(HitResult, Start, End,
 											ECollisionChannel::ECC_Visibility);
 
-		DrawDebugLine(GetWorld(), Start, End,FColor::Red,false,3);
+		//DrawDebugLine(GetWorld(), Start, End,FColor::Red,false,3);
+
+		CantMovement += 1;
 	}
 	else
 	{
@@ -103,8 +107,8 @@ void ACCube::MoveCube(int Direction, bool UpWay)
 		//const FVector End = Start + ((GetActorRightVector()*Direction) *4000);
 		GetWorld()->LineTraceSingleByChannel(HitResult, Start, End,
 											ECollisionChannel::ECC_Visibility);
-
-		DrawDebugLine(GetWorld(), Start, End,FColor::Red,false,3);
+		CantMovement += 1;
+		//DrawDebugLine(GetWorld(), Start, End,FColor::Red,false,3);
 	}
 	if(HitResult.bBlockingHit)
 	{
@@ -125,8 +129,6 @@ bool ACCube::IsArrival(const FVector& M)
 	bool bIsArrivalX;
 	bool bIsArrivalY;
 	const float Distance = (MoveTo - GetActorLocation()).Size();
-
-	UE_LOG(LogTemp,Log,TEXT("Distance: %f"),Distance);
 	if( Distance <= 20)
 	{
 		bIsArrivalX = true;
@@ -155,6 +157,8 @@ bool ACCube::IsArrival(const FVector& M)
 void ACCube::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
+	UE_LOG(LogTemp,Log,TEXT("Cant movement: %i"),CantMovement);
 	if(bIsMoving)
 	{
 		const FVector Current = GetActorLocation();
